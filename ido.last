@@ -1,0 +1,120 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("d:/Users/curso mañana/AppData/Roaming/" . ".emacs.d/")
+ ("d:/Users/curso mañana/.emacs.d/" . "auto-save-list/")
+ ("c:/wamp64/www/2otrim/" . "basedatos/")
+ ("d:/" . "Users/")
+ ("d:/Users/curso mañana/AppData/Roaming/.emacs.d/" . "elpa/")
+ ("d:/Users/curso mañana/Desktop/Marcas/" . "2019 01 17 - IF/")
+ ("c:/wamp64/" . "www/")
+ ("c:/wamp64/www/ejex/" . "2018 10 24 - 25/")
+ ("c:/wamp64/www/" . "2otrim/")
+ ("c:/" . "wamp64/")
+ ("d:/Users/curso mañana/Desktop/" . "Marcas/")
+ ("d:/Users/curso mañana/" . "Desktop/")
+ ("d:/Users/" . "curso mañana/")
+ ("d:/FelizCarpeta/" . "DUMP/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "c:/wamp64/www/2otrim/basedatos/"
+ "d:/Users/curso mañana/Desktop/"
+ "c:/wamp64/www/2otrim/01-16/"
+ "d:/Users/curso mañana/"
+ "c:/"
+ "d:/Users/curso mañana/Desktop/Marcas/19-01-17-Ejercicio/"
+ "d:/Users/curso mañana/Desktop/Marcas/"
+ "d:/FelizCarpeta/"
+ "d:/Users/curso mañana/Desktop/Marcas/2019 01 17 - IF/"
+ "c:/wamp64/www/2otrim/"
+ "d:/Users/curso mañana/AppData/Roaming/.emacs.d/elpa/"
+ "c:/wamp64/www/ejex/2018 10 24 - 25/"
+ "d:/Users/curso mañana/AppData/Roaming/.emacs.d/"
+ "d:/Users/curso mañana/Desktop/Marcas/2018 12 20 - Javascript/"
+ "c:/wamp64/www/ejex/Pruebas/"
+ "c:/wamp64/www/"
+ "d:/Users/curso mañana/Desktop/cat pict/"
+ "c:/wamp64/www/ejex/"
+ "d:/FelizCarpeta/IMAGENES/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "test2.php"
+ "PHPYBBDD.org"
+ "test1.php"
+ "ej2.php"
+ "ej_101.org"
+ "ej_2101"
+ "todo.org"
+ "TODO"
+ "Colectivos"
+ ".bashrc"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("c:/wamp64/www/2otrim/basedatos/" (23632 11235 0 0) "test1.php" "../" "./")
+
+ ("c:/wamp64/www/2otrim/" (23632 8165 0 0) "textomuestra.txt" "recorr.php" "basedatos/" "ascii_art_2.txt" "0108CamaraSecreta.php" "01-16/" "../" "./")
+
+ ("d:/Users/curso mañana/Desktop/" (23632 20003 0 0) "www.lnk" "www/" "VIPERS/" "VCV Rack.lnk" "test.html" "SISTEMAS/" "servicios.org" "PROG/" "pix/" "PHPYBBDD.org" "Paint.lnk" "paco mirror/" "MySQL Workbench 8.0 CE.lnk" "mimiem.org" "Marcas/" "lectura-escritura.org" "LauncherFenix Minecraft.exe" "Junktio/" "FOL/" "Entornos/" "Emacs.lnk" "E1f03Q7.jpg" "Disco local (C).lnk" "Dia.lnk" "desktop.ini" "Descargas.lnk" "datos.org" "bloat/" "BBDD/" "archivosphp.org" "archivos/" "9iknowthis01.png" "20190123.org" "101/" "../" "./")
+
+ ("c:/wamp64/www/2otrim/01-16/" (23616 33918 0 0) "ej2.php" "ej1.php" "../" "./")
+
+ ("d:/Users/curso mañana/" (23617 49117 0 0) "VirtualBox VMs/" "Videos/" "test/" "sketch.jpg.torrent" "SendTo/" "Searches/" "Saved Games/" "Reciente/" "pseint/" "Plantillas/" "Pictures/" "OneDrive/" "ntuser.ini" "NTUSER.DAT{8ebe95f7-3dcb-11e8-a9d9-7cfe90913f50}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{8ebe95f7-3dcb-11e8-a9d9-7cfe90913f50}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{8ebe95f7-3dcb-11e8-a9d9-7cfe90913f50}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "Music/" "Mis documentos/" "MicrosoftEdgeBackups/" "Menú Inicio/" "mdatac.dat" "Links/" "JOSÉ JUAN/" "Impresoras/" "Favorites/" "EsquemaEmpresa.dia~" "EsquemaEmpresa.dia" "Entorno de red/" "dstr" "Downloads/" "Documents/" "Desktop/" "Datos de programa/" "Cookies/" "Contacts/" "Configuración local/" "AppData/" "3D Objects/" ".vscode/" ".VirtualBox/" ".viminfo" ".minecraft/" ".gitconfig" ".emacs.d/" ".dia/" ".config/" ".bluefish/" ".bash_profile" ".bash_history" ".bashrc" "../" "./")
+
+ ("d:/Users/curso mañana/Desktop/BBDD/2019 01 18 - CAMPEONATO/" (23617 54470 0 0) "~$delo Relacional.docx" "Nuevo documento de texto.txt" "Modelo Relacional.docx" "E_R.png" "E_R.dia~" "E_R.dia" ".#Nuevo documento de texto.txt" "../" "./")
+
+ ("d:/Users/curso mañana/AppData/Roaming/.emacs.d/" (23617 39291 0 0) "url/" "snippets/" "paquetes/" "init.el~" "init.el" "image-dired/" "ido.last" "eshell/" "emojis/" "elpa/" "config.org~" "config.org" "config.el" "bookmarks" "auto-save-list/" "ac-comphist.dat" ".tutor/" ".git/" ".cache/" "../" "./")
+
+ ("d:/Users/curso mañana/AppData/Roaming/" (23616 20093 0 0) "WinRAR/" "Winamp/" "vstelemetry/" "vlc/" "Visual Studio Setup/" "Visual Studio Code/" "Unity/" "supertuxkart/" "Sun/" "SecondLife/" "Riot/" "RFFlow/" "qBittorrent/" "NVIDIA/" "NuGet/" "npm/" "Notepad++/" "NetBeans/" "MySQL/" "Mozilla/" "Microsoft Visual Studio/" "Microsoft/" "java/" "Google/" "GIMP/" "draw.io/" "CodeBlocks/" "Code/" "BreakQuest/" "Adobe/" "0ad/" ".minecraft/" ".gnus.el" ".emacs.d/" "../" "./")
+
+ ("d:/Users/curso mañana/.emacs.d/auto-save-list/" (23608 22167 0 0) "../" "./")
+
+ ("d:/Users/curso mañana/.emacs.d/" (23617 36473 0 0) "auto-save-list/" ".git/" "../" "./")
+
+ ("d:/FelizCarpeta/" (23616 23307 0 0) "TRANSORMACIÓN ER_RELACIONAL.pdf" "rarity-gets-you-hot-amp-wet-21422978.png" "Programas Esenciales/" "memeHot.png" "KIVIATT-KEWT3.png" "KIVIATT-KEWT2.png" "KIVIATT-KEWT.png" "JS/" "DUMP/" "DISEÑO LOGICO.pdf" "DISEÑO CONCEPTUAL.pdf" "AA ANUNCIO MUY IMPORTANTE.txt" "783382720_506836.gif" ".bashrc" "../" "./")
+
+ ("d:/Users/curso mañana/Desktop/Marcas/" (23616 23568 0 0) "Practica Final Trimestre/" "Nuevo documento de texto.txt" "lolearchivo" "LENGUAJES DE MARCAS (DISEÑO WEB).pdf" "Inicio/" "dberes 2018 11 08 marcas.png" "19-01-17-IF/" "19-01-10-PrimeraJS/" "19-01-10-Multiplicar/" "18-12-20-Javascript.zip" "18-12-20-Javascript/" "18-11-29-Tabla/" "18-11-29-FORM/" "18-11-22-CSSGriditems/" "18-11-22-CSSGrid/" "18-11-15-MenúHover/" "18-11-08-Maquetación/" "18-11-08-Maquetaci¢n-copia/" "18-11-08-blend/" "18-10-25-test/" "18-10-25-bootstrap/" "18-10-18-DIVS/" "18-10-18-Animaciones/" "18-10-11-Paginadeprueba/" "0-template/" "0-Apuntes/" "../" "./")
+
+ ("d:/FelizCarpeta/DUMP/" (23559 44801 0 0) "minion.jfif" "mariothen.jfif" "mario.jfif" "Kitten-Facts-15.JPG" "hqdefault.jpg" "descarga.jfif" "../" "./")
+
+ ("d:/FelizCarpeta/Programas Esenciales/" (23608 20955 0 0) "Ventanas Transparentes/" "SuperTuxKart 0.9.3/" "pseint/" "Notepad++/" "LibreOfficePortable/" "Falkon (Internet Browser)/" "emacs/" "../" "./")
+
+ ("c:/wamp64/www/ejex/Pruebas/" (23567 40252 0 0) "prueba002.php" "prueba001.php" "prueba000.php" "invertido.php" "invertido-test.php" "../" "./")
+
+ ("d:/Users/curso mañana/Desktop/Marcas/2018 12 20 - Javascript/" (23579 26827 0 0) "index.html" "imagenes/" "estilos/" "../" "./")
+
+ ("d:/Users/curso mañana/AppData/Roaming/.emacs.d/elpa/" (23614 60129 0 0) "zerodark-theme-20180911.1451/" "yasnippet-20181015.1212/" "xcscope-20180426.712/" "with-editor-20181113.1845/" "which-key-20181114.1432/" "web-mode-readme.txt" "web-mode-edit-element-readme.txt" "web-mode-20181214.658/" "web-completion-data-20160318.848/" "use-package-20181119.2350/" "use-package-20181110.1758/" "undo-tree-0.6.5/" "treepy-20180724.656/" "treemacs-readme.txt" "treemacs-projectile-20181029.624/" "treemacs-evil-20180803.1017/" "treemacs-20181210.1413/" "tern-20181108.722/" "telephone-line-readme.txt" "telephone-line-20181120.455/" "simple-httpd-20180528.1603/" "show-css-readme.txt" "s-20180406.808/" "request-20181129.1138/" "request-20170201.147/" "ranger-readme.txt" "rainbow-mode-1.0.1/" "rainbow-delimiters-20170929.1132/" "projectile-20181204.1559/" "pretty-mode-20160614.1846/" "pos-tip-20150318.1513/" "popup-kill-ring-20131020.1854/" "popup-20160709.1429/" "pkg-info-20150517.1143/" "php-mode-20181206.825/" "pfuture-20180922.1315/" "pelican-mode-readme.txt" "pandoc-mode-20180917.721/" "org-timeline-readme.txt" "org-readme.txt" "org-radiobutton-readme.txt" "org-bullets-20180208.2343/" "org-9.1.14/" "org-20181210/" "nlinum-readme.txt" "nasm-mode-readme.txt" "mysql-to-org-readme.txt" "monitor-readme.txt" "minimap-readme.txt" "memoize-20180614.1930/" "markdown-mode-readme.txt" "magit-popup-20181204.2031/" "magit-20181211.1850/" "lusty-explorer-readme.txt" "lmc-readme.txt" "list-unicode-display-readme.txt" "linum-relative-readme.txt" "linum-relative-20180124.1047/" "kill-ring-search-readme.txt" "kill-ring-search-20140422.1555/" "indent-guide-20170221.1127/" "impatient-mode-readme.txt" "impatient-mode-20181002.1231/" "ido-yes-or-no-readme.txt" "ido-yes-or-no-20161108.2351/" "ido-vertical-mode-readme.txt" "ido-vertical-mode-20180618.2101/" "ido-hacks-readme.txt" "ido-hacks-20150331.1909/" "ido-exit-target-readme.txt" "ido-completing-read+-20180628.244/" "ido-complete-space-or-hyphen-readme.txt" "hydra-20181128.1716/" "htmlize-20180923.1829/" "ht-20180129.2234/" "helm-w32-launcher-readme.txt" "helm-core-20181124.1337/" "helm-20181127.518/" "handoff-readme.txt" "graphql-20180912.31/" "goto-chg-20180105.1833/" "git-commit-20181124.1111/" "ghub-20181112.1755/" "flx-readme.txt" "flx-ido-20180117.1519/" "flx-20151030.1812/" "flex-isearch-readme.txt" "f-20180106.922/" "evil-tutor-20150103.650/" "evil-20181107.1016/" "es-windows-readme.txt" "es-windows-20140211.904/" "epl-20180205.2049/" "doom-themes-20181101.218/" "desktop-environment-readme.txt" "dash-functional-20180107.1618/" "dash-20180910.1856/" "company-web-readme.txt" "company-web-20180402.1155/" "company-tern-readme.txt" "company-tern-20161004.1847/" "company-readme.txt" "company-php-readme.txt" "company-php-20181110.303/" "company-emoji-readme.txt" "company-emoji-20180925.2008/" "company-20190109.2336/" "browse-kill-ring-20171219.1908/" "boron-theme-20170808.1308/" "bind-key-20180513.430/" "beacon-20181008.1350/" "basic-theme-readme.txt" "avy-20181126.1705/" "autothemer-readme.txt" "auto-org-md-readme.txt" "auto-complete-20170125.245/" "async-20180527.1730/" "ascii-art-to-unicode-readme.txt" "archives/" "all-the-icons-20180125.1557/" "ahungry-theme-readme.txt" "aggressive-indent-20181018.236/" "ace-window-20181008.1549/" "ace-isearch-readme.txt" "ac-php-readme.txt" "ac-php-core-readme.txt" "ac-php-core-20181125.1307/" "ac-php-20171201.934/" "ac-octave-readme.txt" "ac-html-csswatcher-readme.txt" "ac-html-csswatcher-20151208.2113/" "ac-html-bootstrap-readme.txt" "2048-game-20151026.1933/" "0blayout-readme.txt" "../" "./")
+
+ ("d:/Users/curso mañana/Desktop/Marcas/2019 01 17 - IF/" (23616 21401 0 0) "index.html" "imagenes/" "estilos/" "../" "./")
+
+ ("c:/.emacs.d/" (23510 54689 0 0) "../" "./")
+
+ ("d:/Users/curso mañana/Desktop/FOL/" (23604 28154 0 0) "_TH/" "piedra.psc" "Mi Carpeta/" "info.xcf" "imagenes/" "Imagen1.png" "ENTREVISTA DE TRABAJO.rtf" "dump/" "config.org" "coevaluacion portales.doc" "Capitalismo3.psc" "2018 11 19 - quiero empleo/" "2018 11 12 - CV/" "2018 11 05/" "2018 10 29/" "0108CamaraSecreta.php" "../" "./")
+
+ ("c:/wamp64/www/ejex/2018 10 24 - 25/" (23512 9627 0 0) "notas2.php" "notas.php" "factorial.php" "contarcifras.php" "calculadora.php" "../" "./")
+
+ ("c:/wamp64/www/" (23604 25058 0 0) "wampthemes/" "wamplangues/" "test_sockets.php" "testmysql.php" "index.php" "favicon.ico" "ejex-backup/" "ejex/" "add_vhost.php" "2otrim/" "../" "./")
+
+ ("d:/Users/curso mañana/Desktop/Entornos/" (23579 22292 0 0) "piedra - copia.psc" "java/" "index.html" "hoja.09.interseccion.psc" "hoja.02.multiplo.psc" "hoja.01.ascendente.psc" "2018 11 16 rar/" "005.primos.psc" "004.amortizacion.psc" "003.vocal.psc" "002.mes.psc" "001.ruleta.psc" "000.ejercicios.pdf" "../" "./")
+
+ ("c:/wamp64/www/ejex/" (23557 4648 0 0) "Pruebas/" "Ohno/" "isset_template.php" "config.org" "2018 10 30 - 31/" "2018 10 24 - 25/" "../" "./")
+
+ ("c:/wamp64/" (23530 53723 0 0) "www.zip" "www/" "wampmanager.tpl" "wampmanager.ini" "wampmanager.exe" "wampmanager.conf" "uninstall_services.bat" "unins000.exe" "unins000.dat" "tmp/" "scripts/" "quit_wampserver.bat" "mariadb_support.txt" "logs/" "licence.txt" "lang/" "instructions_for_use.pdf" "install.txt" "images_on.bmp" "images_off.bmp" "changelog.txt" "cgi-bin/" "bin/" "barimage.bmp" "apps/" "alias/" "../" "./")
+
+ ("d:/Users/curso mañana/Desktop/SISTEMAS/" (23557 9281 0 0) "raid 5.png" "raid 1.png" "raid 1 + 0.png" "raid 0.png" "raid 0 + 1.png" "perifericos.org~" "perifericos.org" "mem_th.txt" "mem_ej2_comparar.docx" "mem_ej2_calculo.txt" "mem_ej1_calculo.txt" "mem_4.png" "mem_3.png" "mem_3.1.png" "mem_2.png" "mem_1.png" "memo/" "HDD.jpg" "cpu_ej_comparar.docx" "ATA-IDE.png" "Apuntes.org~" "Apuntes.org" ".#Apuntes.org" "../" "./")
+
+ ("d:/Users/curso mañana/Desktop/cat pict/" (23557 4473 0 0) "picture.txt" "picture - copia.txt" "picture - copia (9).txt" "picture - copia (8).txt" "picture - copia (7).txt" "picture - copia (6).txt" "picture - copia (5).txt" "picture - copia (40).txt" "picture - copia (4).txt" "picture - copia (39).txt" "picture - copia (38).txt" "picture - copia (37).txt" "picture - copia (36).txt" "picture - copia (35).txt" "picture - copia (34).txt" "picture - copia (33).txt" "picture - copia (32).txt" "picture - copia (31).txt" "picture - copia (30).txt" "picture - copia (3).txt" "picture - copia (29).txt" "picture - copia (28).txt" "picture - copia (27).txt" "picture - copia (26).txt" "picture - copia (25).txt" "picture - copia (24).txt" "picture - copia (23).txt" "picture - copia (22).txt" "picture - copia (21).txt" "picture - copia (20).txt" "picture - copia (2).txt" "picture - copia (19).txt" "picture - copia (18).txt" "picture - copia (17).txt" "picture - copia (16).txt" "picture - copia (15).txt" "picture - copia (14).txt" "picture - copia (13).txt" "picture - copia (12).txt" "picture - copia (11).txt" "picture - copia (10).txt" "../" "./")
+
+ ("d:/Users/" (23455 57257 0 0) "Tecnicos/" "Public/" "desktop.ini" "Default User/" "Default/" "curso web 2/" "curso tarde/" "curso mañana/" "All Users/" "Admin/" "../" "./")
+
+ ("d:/FelizCarpeta/IMAGENES/" (23520 15470 0 0) "minion.jfif" "mariothen.jfif" "mario.jfif" "Kitten-Facts-15.JPG" "hqdefault.jpg" "descarga.jfif" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

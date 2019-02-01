@@ -1,0 +1,19 @@
+help
+ls
+atrib evil
+attrib evil
+attrib evil-tutor-03122018.txt 
+ls
+help
+woman
+woma ls
+woman ls
+woman gawk
+woman awk
+man awk
+(let foo 5)
+cd ..
+git add .
+git commit
+git push -u origin master
+bash.exe 

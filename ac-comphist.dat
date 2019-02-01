@@ -1,0 +1,106 @@
+((("add-to-list" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("company-emoji" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("use-package" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("global-hl-line-mode" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("por" .
+   [1 0 0])
+  ("torrent" .
+   [1 0 0 0 0 0 0])
+  ("ido-vertical-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("setq" .
+   [4 0 0 0])
+  ("helm-w32-launcher-elevated" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("global-map" .
+   [0 0 0 0 0 0 0 1 0 0])
+  ("global" .
+   [0 0 0 1 0 0])
+  ("tipocon" .
+   [1 0 0 0 0 0 0])
+  ("tipoconv" .
+   [0 0 0 0 0 0 1 0])
+  ("$foo" .
+   [1 1 0 0])
+  ("numeroin" .
+   [0 0 0 0 0 0 1 0])
+  ("absolute" .
+   [2 0 0 0 0 0 0 0])
+  ("relative" .
+   [1 0 0 0 0 0 0 0])
+  ("background-color" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("DropShadow" .
+   [0 0 0 1 0 0 0 0 0 0])
+  ("shell-command" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("webjump" .
+   [0 0 0 0 0 0 1])
+  ("lambda" .
+   [1 0 0 0 0 1])
+  ("progn" .
+   [1 0 0 0 0])
+  (":init" .
+   [2 0 0 0 0])
+  (":ensure" .
+   [2 0 0 0 0 0 0])
+  ("nil" .
+   [1 0 0])
+  ("tool-bar-mode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("probarconeso" .
+   [0 0 0 0 0 0 1 0 0 0 0 0])
+  ("delete" .
+   [1 0 0 0 0 0])
+  (":custom-face" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("les" .
+   [1 0 0])
+  ("defvar" .
+   [2 0 0 0 0 0])
+  ("set" .
+   [0 0 2])
+  ("dired" .
+   [1 0 0 0 0])
+  ("split-and-follow-horizontally" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("shell" .
+   [0 0 0 1 0])
+  ("split-window-right" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("guardar-en-escritorio" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("wertwertwet" .
+   [0 0 0 0 0 1 0 0 0 0 0])
+  ("lang" .
+   [3 0 0 0])
+  ("left" .
+   [1 0 0 1])
+  ("tfoot" .
+   [1 0 0 0 0])
+  ("magit" .
+   [1 0 0 0 0])
+  ("magit-push" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("global-set-key" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("kbd" .
+   [3 0 0])
+  ("emojify-insert-emoji" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("$abecedario" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("helm-w32-launcher" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("jj-var1" .
+   [1 0 0 0 0 0 0])
+  ("para" .
+   [1 0 0 0])
+  ("web-mode-comment-style" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("ac-source-php" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0])))

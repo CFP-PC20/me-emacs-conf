@@ -1,0 +1,288 @@
+* BASICO
+** UTF-8
+#+BEGIN_SRC emacs-lisp 
+  (setq locale-coding-system 'utf-8)
+  (set-terminal-coding-system 'utf-8)
+  (set-keyboard-coding-system 'utf-8)
+  (set-selection-coding-system 'utf-8)
+  (prefer-coding-system 'utf-8)
+#+END_SRC
+
+** Y-N
+#+BEGIN_SRC emacs-lisp
+(defalias 'yes-or-no-p 'y-or-n-p)
+#+END_SRC
+
+** Autosave
+#+BEGIN_SRC emacs-lisp
+  (setq make-backup-files nil)
+  (setq auto-save-default nil)
+#+END_SRC
+
+** Configuración
+*** Reload
+#+BEGIN_SRC emacs-lisp
+  (defun initel-visit ()
+    "Visita ~/.emacs.d/init.el"
+    (interactive)
+    (find-file "~/.emacs.d/init.el"))
+  (global-set-key (kbd "C-c i") 'initel-visit)
+
+  (defun config-visit ()
+    "Visita ~/.emacs.d/config.org"
+    (interactive)
+    (find-file "~/.emacs.d/config.org"))
+  (global-set-key (kbd "C-c v") 'config-visit)
+
+  (defun config-reload ()
+    "Reloads ~/.emacs.d/config.org at runtime"
+    (interactive)
+    (org-babel-load-file (expand-file-name "~/.emacs.d/config.org")))
+  (global-set-key (kbd "C-c r") 'config-reload)
+#+END_SRC
+
+** Case insensitive
+#+BEGIN_SRC emacs-lisp
+  (setq read-file-name-completion-ignore-case t)
+  (setq read-buffer-completion-ignore-case t)
+  (setq completion-ignore-case  t)
+#+END_SRC
+
+
+* APARIENCIA
+** Tema
+#+BEGIN_SRC emacs-lisp
+  (use-package boron-theme
+    :ensure t
+    :init
+      (load-theme 'boron t))
+#+END_SRC
+
+** Configuración básica
+#+BEGIN_SRC emacs-lisp
+  (menu-bar-mode 1)
+  (toggle-scroll-bar -1)
+  (tool-bar-mode -1)
+  (setq-default cursor-type 'bar)
+  (global-hl-line-mode +1)
+#+END_SRC
+
+** Reloj
+#+BEGIN_SRC emacs-lisp
+(setq display-time-24hr-format t)
+(setq display-time-format "   %Y-%m-%d    %H:%M   ")
+(display-time-mode 1)
+(setq display-time-default-load-average -1)
+#+END_SRC
+
+** Beacon
+#+BEGIN_SRC emacs-lisp
+(use-package beacon
+  :ensure t
+  :config
+    (beacon-mode 1)
+    (setq beacon-blink-when-window-scrolls t))
+#+END_SRC
+
+** Rainbow-Mode
+#+BEGIN_SRC emacs-lisp
+(use-package rainbow-mode
+  :ensure t
+  :config
+    (rainbow-mode 1))
+#+END_SRC
+
+** Paréntesis
+#+BEGIN_SRC emacs-lisp
+  (use-package rainbow-delimiters
+    :ensure t
+    :init
+    (progn
+      (add-hook 'prog-mode-hook 'rainbow-delimiters-mode)))
+  (show-paren-mode 1)
+#+END_SRC
+
+** Coordenadas
+#+BEGIN_SRC emacs-lisp
+  (setq line-number-mode t)
+  (setq column-number-mode t)
+#+END_SRC
+   
+** Indentación
+#+BEGIN_SRC emacs-lisp
+  (use-package aggressive-indent
+    :ensure t
+    :init
+    (progn
+  (global-aggressive-indent-mode 1)))
+  (use-package indent-guide
+    :ensure t
+    :init
+    (progn
+      (indent-guide-global-mode)
+  (setq indent-guide-recursive t)))
+#+END_SRC
+
+   
+* COMPORTAMIENTO
+** Habilitar funciones desactivadas
+#+BEGIN_SRC emacs-lisp
+  (put 'upcase-region 'disabled nil)
+  (put 'downcase-region 'disabled nil)
+#+END_SRC
+** Subwords
+#+BEGIN_SRC emacs-lisp
+(global-subword-mode 1)
+#+END_SRC
+
+** Electric Pairs
+#+BEGIN_SRC emacs-lisp 
+(setq electric-pair-pairs '(
+                           (?\{ . ?\})
+                           (?\( . ?\))
+                           (?\[ . ?\])
+                           (?\" . ?\")
+			   (?\< . ?\>)
+                           (?\¡ . ?\!)
+                           (?\¿ . ?\?)
+                           ))
+(electric-pair-mode t)
+#+END_SRC
+
+** Scroll
+#+BEGIN_SRC emacs-lisp
+(setq scroll-conservatively 100)
+#+END_SRC
+
+** Which-Key
+#+BEGIN_SRC emacs-lisp
+  (use-package which-key
+    :ensure t
+    :config
+      (which-key-mode))
+#+END_SRC
+
+** Browse-Kill-Ring
+#+BEGIN_SRC emacs-lisp
+  (use-package popup-kill-ring
+  :ensure t
+  :bind ("C-c y" . popup-kill-ring))
+#+END_SRC
+
+** Pretty-mode
+#+BEGIN_SRC emacs-lisp
+  (when window-system
+        (use-package pretty-mode
+        :ensure t
+        :config
+        (global-pretty-mode t)))
+#+END_SRC
+** Terminal
+#+BEGIN_SRC emacs-lisp
+    (defvar my-term-shell "/bin/bash")
+    (defadvice ansi-term (before force-bash)
+      (interactive (list my-term-shell)))
+    (ad-activate 'ansi-term)
+    (global-set-key (kbd "C-x t") 'ansi-term)
+    (use-package sudo-edit
+      :ensure t
+      :bind
+      ("C-M-x t" . sudo-edit))
+#+END_SRC
+
+** Swiper
+#+BEGIN_SRC emacs-lisp
+
+#+END_SRC
+
+** IBuffer
+#+BEGIN_SRC emacs-lisp
+(global-set-key (kbd "C-x b") 'ibuffer)
+(setq ibuffer-expert t)
+(defun close-all-buffers ()
+  "Cierra todos los buffers."
+  (interactive)
+  (mapc 'kill-buffer (buffer-list)))
+(global-set-key (kbd "C-M-x k") 'close-all-buffers)
+#+END_SRC
+
+** Auto-completado
+#+BEGIN_SRC emacs-lisp
+  (use-package auto-complete 
+    :ensure t
+    :init
+    (progn
+      (ac-config-default)
+      (global-auto-complete-mode t)))
+#+END_SRC
+
+** Org
+#+BEGIN_SRC emacs-lisp
+(add-to-list 'org-structure-template-alist
+	       '("el" "#+BEGIN_SRC emacs-lisp\n?\n#+END_SRC"))
+#+END_SRC
+
+
+* VENTANAS
+** 4 Ventanas
+#+BEGIN_SRC emacs-lisp
+  (defun hacercuatroventanas ()
+    (interactive)
+    (split-window-below)
+    (split-window-right)
+    (other-window 1)
+    (ibuffer)
+    (other-window 1)
+    (ibuffer)
+    (split-window-right)
+    (other-window -2))
+  (global-set-key (kbd "C-x 4") 'hacercuatroventanas)
+
+  (defun quitarcuatroventanas ()
+    (interactive)
+    (let (vez)
+      (dotimes (vez 3)
+        (other-window 1)
+        (delete-window))))
+  (global-set-key (kbd "C-x 5") 'quitarcuatroventanas)
+
+#+END_SRC
+
+** Focus al dividir
+#+BEGIN_SRC emacs-lisp
+(defun split-and-follow-horizontally ()
+  (interactive)
+  (split-window-below)
+  (other-window 1))
+(global-set-key (kbd "C-x 2") 'split-and-follow-horizontally)
+
+(defun split-and-follow-vertically ()
+  (interactive)
+  (split-window-right)
+  (balance-windows)
+  (other-window 1))
+(global-set-key (kbd "C-x 3") 'split-and-follow-vertically)
+#+END_SRC
+
+#+BEGIN_SRC emacs-lisp
+  (defun delothwinim ()
+    (interactive)
+    (delete-other-windows)
+    (move-beginning-of-line 1))
+
+  (global-set-key (kbd "C-x 1") 'delothwinim)
+#+END_SRC
+
+
+* INICIO
+** Disable
+#+BEGIN_SRC emacs-lisp
+  (setq inhibit-startup-message t)
+#+END_SRC
+
+
+
+ 
+
+
+
